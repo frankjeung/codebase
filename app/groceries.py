@@ -7,26 +7,7 @@
 
 import os
 
-
-def to_usd(my_price):
-    """
-    This is a docstring. It tell us what this function is about. 
-    What its reponsibilities are.
-    What the params are about.
-    Whate datatypes the params are.
-    What this function will return.
-    Example of invoking the function.
-
-    Invoke like this: to_usd(9.9999)
-    """
-    return '${:,.2f}'.format(my_price)
-
-
-
-
-
-
-
+from app.utils import to_usd
 
 
 # checks to see if a products.csv file exists. If not, it uses the default
@@ -73,3 +54,4 @@ print("AVERAGE PRICE:", to_usd(avg_price))
 
 
 # EMAIL INVENTORY REPORT
+to_usd()
