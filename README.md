@@ -53,9 +53,6 @@ Run the inventory report:
 python -m app.groceries
 ```
 
-
-
-
 Run the stocks report:
 
 ```sh
@@ -63,10 +60,13 @@ Run the stocks report:
 python -m app.stocks
 ```
 
-
 Run the crypto report:
 
 ```sh
 #python app/crypto.py
 python -m app.crypto
 ```
+Run the unemployment report:
+
+python -m app.unemployment
+

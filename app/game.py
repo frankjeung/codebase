@@ -7,6 +7,21 @@ from random import choice
 
 
 def determine_winner(user_choice, computer_choice):
+    """
+    The function determine_winner is reponsible for 
+    determining the winner for the rock scissors paper game. 
+
+    The parameters are user_choice, and computer_choice. 
+    User_choice, and computer_choice are both string data types.
+
+    The function determine_winner returns a value.
+    Through series of if statments, the returned value 
+    helps the program determine the winner.
+
+    Invoke like this: determine_winner(user_choice, computer_choice)
+
+    Example return value "paper"
+    """
     #return "paper"
     winners = {
         "rock": {
