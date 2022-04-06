@@ -66,7 +66,16 @@ Run the crypto report:
 #python app/crypto.py
 python -m app.crypto
 ```
+
 Run the unemployment report:
 
+```sh
 python -m app.unemployment
+```
+
+Run the test for both determine_winner function and to_usd function:
+
+```sh
+pytest
+```
 

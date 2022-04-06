@@ -12,6 +12,12 @@ def to_usd(my_price):
     What this function will return.
     Example of invoking the function.
 
+    This function formats the price of each item into USD.
+    The function adds a dollar sign, and rounds decimals to nearest hundredth.
+    The parameter is the unformatted price of each item.
+    The parameter is a float datatype. 
+    The function will return a formatted price with currency.
+
     Invoke like this: to_usd(9.9999)
 
     Example return value "$9.99"
